@@ -1,0 +1,17 @@
+<template>
+    <div>
+        <EditForm />
+    </div>
+</template>
+<script>
+import EditForm from '../components/editForm.vue'
+export default {
+    name: "EditProduct",
+    components: {
+        EditForm,
+    },  
+}
+</script>
+<style>
+    
+</style>
